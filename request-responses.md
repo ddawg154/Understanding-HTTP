@@ -1,40 +1,41 @@
-# HTTP Requests & Responses
+# HTTP Requests and Responses
 
-Every action you take on the web—loading a page, clicking a link, submitting a form—creates an **HTTP request**. The server then returns an **HTTP response**.
-
-Understanding this exchange is key to understanding how the web works.
-
----
+Web communication works through a request-response cycle. A browser sends an HTTP request, and a server sends an HTTP response.
 
 ## HTTP Requests
-
 A request includes:
-- **Method:** What action the client wants to perform  
-- **Path:** What resource it wants (like `/index.html`)  
-- **Headers:** Small pieces of additional information  
-- **Body:** Optional data sent with the request (ex: form submissions)
+- Method (GET, POST, etc.)
+- Path (the file or resource being requested)
+- Headers (extra information)
+- Body (optional data)
 
-### Common HTTP Methods
-- **GET** — Retrieve information  
-- **POST** — Send new data to the server  
-- **PUT** — Update existing data  
-- **DELETE** — Remove data  
----
+Common HTTP Methods:
+- GET: Request data.
+- POST: Send new data.
+- PUT: Update data.
+- DELETE: Remove data.
 
 ## HTTP Responses
-
 A response includes:
-- **Status code:** Indicates success or failure  
-- **Headers:** Information about the returned data  
-- **Body:** The content (HTML, JSON, images, etc.)
+- Status code
+- Headers
+- Body (HTML, images, or other content)
 
-### Common HTTP Status Codes
-- **200 OK** — The request succeeded  
-- **301 Moved Permanently** — The resource was redirected  
-- **404 Not Found** — The resource doesn't exist  
-- **500 Internal Server Error** — Something broke on the server  
----
+Common Status Codes:
+- 200 OK: Success.
+- 301 Moved Permanently: Redirect.
+- 404 Not Found: Resource not found.
+- 500 Internal Server Error: Server problem.
 
-## Example Request & Response
+## Example
+Request:
+GET /index.html HTTP/1.1  
+Host: example.com
 
-### Request (from browser)
+Response:
+HTTP/1.1 200 OK  
+Content-Type: text/html
+
+## Navigation
+Back: [What Is HTTP?](what-is-http.md)  
+Next: [What Happens When You Visit a Website](web-process.md)
