@@ -1,13 +1,13 @@
 # HTTP Requests and Responses
 
-Web communication works through a request-response cycle. A browser sends an HTTP request, and a server sends an HTTP response.
+Web communication works through a request and response cycle. A browser will send an HTTP request, and a server will then send back an HTTP response.
 
 ## HTTP Requests
 A request includes:
 - Method (GET, POST, etc.)
-- Path (the file or resource being requested)
-- Headers (extra information)
-- Body (optional data)
+- Path (which is the file or resource being requested)
+- Headers (can include any extra information)
+- Body (can include any optional data)
 
 Common HTTP Methods:
 - GET: Request data.
