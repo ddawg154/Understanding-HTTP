@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "9cdd09fc-3c32-43d7-b7d4-613b84d5d005",
             "zIndex": -1,
+            "id": "9cdd09fc-3c32-43d7-b7d4-613b84d5d005",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Bank Internal Network",
@@ -74,6 +74,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -157,7 +158,6 @@
               ]
             },
             "id": "2ea0de42-2349-4356-a1e8-d5b21eac25e4",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Login System",
@@ -229,6 +229,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -312,7 +313,6 @@
               ]
             },
             "id": "d14e03d3-0c5a-41ba-9bc4-4a595482cd48",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Transaction System\n",
@@ -384,6 +384,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -467,7 +468,6 @@
               ]
             },
             "id": "cca7c1ba-c69c-4802-805e-3b20f85a7628",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Account Management System",
@@ -544,6 +544,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -627,7 +628,6 @@
               ]
             },
             "id": "d3e0599d-0166-47f5-b06f-775c17f24efb",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "User Database",
@@ -688,6 +688,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -771,7 +772,6 @@
               ]
             },
             "id": "9abc4348-119e-4a6b-9b4a-e4b91742ac9b",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Transaction Database\n",
@@ -1057,6 +1057,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1140,7 +1141,6 @@
               ]
             },
             "id": "2b9f5a36-6d33-4410-b8ee-e27cfacf11ce",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Customer\n",
@@ -1174,6 +1174,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1257,7 +1258,6 @@
               ]
             },
             "id": "951c792a-437c-4865-8794-ce9c938e6607",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Bank",
